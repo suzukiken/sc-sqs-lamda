@@ -1,11 +1,11 @@
 import { expect as expectCDK, matchTemplate, MatchStyle } from '@aws-cdk/assert';
 import * as cdk from '@aws-cdk/core';
-import * as Cstsqslamda from '../lib/scsqslamda-stack';
+import * as Scsqslamda from '../lib/scsqslamda-stack';
 
 test('Empty Stack', () => {
     const app = new cdk.App();
     // WHEN
-    const stack = new Cstsqslamda.ScsqslamdaStack(app, 'MyTestStack');
+    const stack = new Scsqslamda.ScsqslamdaStack(app, 'MyTestStack');
     // THEN
     expectCDK(stack).to(matchTemplate({
       "Resources": {}
