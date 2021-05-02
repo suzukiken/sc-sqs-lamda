@@ -5,4 +5,4 @@ To deploy SQS and Lambda as subscriber.
 * `npm install`
 * `cdk deploy`
 
-[description](https://figmentresearch.com/aws/scsqslamda)
+[description](https://note.figmentresearch.com/aws/scsqslamda)
