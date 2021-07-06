@@ -2,6 +2,7 @@
 title = "Solutions ConstructsでSQS+Lambdaを作る"
 date = "2021-03-27"
 tags = ["Solutions Constructs", "SQS", "Lambda"]
+category = "楽に作る"
 +++
 
 [Solutions Constructs](https://docs.aws.amazon.com/solutions/latest/constructs/welcome.html)は便利かもしれない。
